@@ -1,0 +1,8 @@
+# .husky/pre-commit
+
+# Make sure the script is executable
+chmod +x .husky/pre-commit
+
+# Run RuboCop to check Ruby code style and formatting
+bundle exec rubocop --fail-level A
+
